@@ -1,5 +1,5 @@
 import time
-
+from utilities.read_properties import read_Config
 import pytest
 from selenium.webdriver.chrome import webdriver
 from selenium import webdriver
@@ -9,10 +9,10 @@ from base_pages.Login_Admin_Page import Login_Admin_Page
 
 
 class Test_01_Admin_Login:
-    admin_Page_Url = "https://www.saucedemo.com/"
-    username = "standard_user"
-    password = "secret_sauce"
-    invalid_username = "abcd"
+    admin_Page_Url = read_Config.get_admin_page_url()
+    username = read_Config.get_admin_username()
+    password = read_Config.get_admin_password()
+    invalid_username = read_Config.get_admin_invalid_username()
 
     def test_title_verification(self,setup):
         self.driver = setup
