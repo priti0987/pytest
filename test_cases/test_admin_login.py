@@ -4,7 +4,7 @@ import pytest
 from selenium.webdriver.chrome import webdriver
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-
+from utilities.custom_logger import Log_Maker
 from base_pages.Login_Admin_Page import Login_Admin_Page
 
 
@@ -13,21 +13,27 @@ class Test_01_Admin_Login:
     username = read_Config.get_admin_username()
     password = read_Config.get_admin_password()
     invalid_username = read_Config.get_admin_invalid_username()
+    logger = Log_Maker.log_gen()
 
     def test_title_verification(self,setup):
+        self.logger.info("*********** Test_01_Admin_Login ************")
+        self.logger.info("*********** verification of admin login page ************")
         self.driver = setup
         self.driver.get(self.admin_Page_Url)
         self.driver.maximize_window()
         act_title = self.driver.title
         exp_title = "Swag Labs"
         if act_title == exp_title:
+            self.logger.info("*********** title matched  ************")
             assert True
             self.driver.close()
         else:
+            self.logger.info("*********** title not matched ************")
             self.driver.close()
             assert False
 
     def test_valid_admin_login(self,setup):
+        self.logger.info("*********** Valid Login  ************")
         self.driver = setup
         self.driver.get(self.admin_Page_Url)
         self.driver.maximize_window()
@@ -45,6 +51,7 @@ class Test_01_Admin_Login:
             assert False
 
     def test_invalid_admin_login(self,setup):
+        self.logger.info("*********** InValid Login  ************")
         self.driver = setup
         self.driver.get(self.admin_Page_Url)
         self.driver.maximize_window()
@@ -61,6 +68,4 @@ class Test_01_Admin_Login:
         else:
             self.driver.close()
             assert False
-
-
 
