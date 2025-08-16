@@ -3,3 +3,27 @@
 2025-08-14 14:44:55:INFO:*********** title matched  ************
 2025-08-14 14:44:57:INFO:*********** Valid Login  ************
 2025-08-14 14:45:06:INFO:*********** InValid Login  ************
+2025-08-16 20:32:59:INFO:*********** Test_01_Admin_Login ************
+2025-08-16 20:32:59:INFO:*********** verification of admin login page ************
+2025-08-16 20:33:01:INFO:*********** title matched  ************
+2025-08-16 20:33:03:INFO:*********** Valid Login  ************
+2025-08-16 20:33:11:INFO:*********** InValid Login  ************
+2025-08-16 20:56:44:INFO:Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2025-08-16 20:56:44:WARNING:Unable to obtain driver using Selenium Manager: Selenium Manager failed for: C:\pythonProject\venv\lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser MicrosoftEdge --output json.
+error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_139_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
+2025-08-16 20:56:45:INFO:Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2025-08-16 20:56:45:WARNING:Unable to obtain driver using Selenium Manager: Selenium Manager failed for: C:\pythonProject\venv\lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser MicrosoftEdge --output json.
+error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_139_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
+2025-08-16 20:56:45:INFO:Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2025-08-16 20:56:45:WARNING:Unable to obtain driver using Selenium Manager: Selenium Manager failed for: C:\pythonProject\venv\lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser MicrosoftEdge --output json.
+error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_139_WINDOWS): error trying to connect: dns error: No such host is known. (os error 11001)
+2025-08-16 21:00:11:INFO:*********** Test_01_Admin_Login ************
+2025-08-16 21:00:11:INFO:*********** verification of admin login page ************
+2025-08-16 21:00:13:INFO:*********** title matched  ************
+2025-08-16 21:00:16:INFO:*********** Valid Login  ************
+2025-08-16 21:00:24:INFO:*********** InValid Login  ************
+2025-08-16 21:00:55:INFO:*********** Test_01_Admin_Login ************
+2025-08-16 21:00:55:INFO:*********** verification of admin login page ************
+2025-08-16 21:00:56:INFO:*********** title matched  ************
+2025-08-16 21:00:58:INFO:*********** Valid Login  ************
+2025-08-16 21:01:07:INFO:*********** InValid Login  ************
