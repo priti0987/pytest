@@ -27,3 +27,8 @@ error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE
 2025-08-16 21:00:56:INFO:*********** title matched  ************
 2025-08-16 21:00:58:INFO:*********** Valid Login  ************
 2025-08-16 21:01:07:INFO:*********** InValid Login  ************
+2025-08-18 18:30:34:INFO:*********** Valid Login  ************
+2025-08-18 18:30:35:INFO:*********** Test_01_Admin_Login ************
+2025-08-18 18:30:35:INFO:*********** verification of admin login page ************
+2025-08-18 18:30:35:INFO:*********** InValid Login  ************
+2025-08-18 18:30:37:INFO:*********** title matched  ************

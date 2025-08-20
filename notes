@@ -1,0 +1,3 @@
+for parallel execution
+in command line
+pytest -v -s -n 3
